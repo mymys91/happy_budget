@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/*
+ * HappyBudget theme.
+ * All colors live here as CSS variables so the whole look can be changed in one place.
+ * Tailwind classes such as `bg-primary` or `text-muted-foreground` map to these tokens.
+ */
+:root {
+  --background: #fff8f3; /* warm cream */
+  --foreground: #3d2c35; /* soft plum-brown, easier on the eyes than black */
+  --card: #ffffff;
+  --card-foreground: #3d2c35;
+  --primary: #e5679a; /* rose pink */
+  --primary-foreground: #ffffff;
+  --secondary: #d9f2e6; /* mint */
+  --secondary-foreground: #24624a;
+  --accent: #fde7c8; /* peach */
+  --accent-foreground: #8a4b12;
+  --muted: #f7ece6;
+  --muted-foreground: #8b7480;
+  --destructive: #d64545;
+  --border: #f1dfd6;
+  --ring: #f3a6c4;
+  --radius: 1rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-app);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
