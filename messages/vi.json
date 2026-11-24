@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "description": "Lên kế hoạch chi tiêu, biết tiền đi đâu và vui vẻ tiết kiệm mỗi ngày."
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "vi": "VI",
+    "en": "EN"
+  },
+  "nav": {
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
+  },
+  "home": {
+    "badge": "Miễn phí và riêng tư",
+    "title": "Tiền bạc vui vẻ, chi tiêu gọn gàng",
+    "subtitle": "Lên kế hoạch mỗi tháng, ghi lại chi tiêu thực tế và nhẹ nhàng nhận ra chỗ cần cải thiện. Tiết kiệm theo mục tiêu và theo dõi đầu tư ở cùng một nơi.",
+    "ctaPrimary": "Bắt đầu miễn phí",
+    "ctaSecondary": "Tôi đã có tài khoản",
+    "features": {
+      "budget": {
+        "title": "Kế hoạch và thực chi",
+        "text": "Đặt kế hoạch tháng, ghi thu nhập và chi tiêu, xem danh mục nào bị vượt."
+      },
+      "saving": {
+        "title": "Mục tiêu tiết kiệm",
+        "text": "Đặt tên mục tiêu, chọn số tiền cần đạt và xem tiến độ tăng dần."
+      },
+      "invest": {
+        "title": "Đầu tư",
+        "text": "Ghi lại từng lần mua bán và theo dõi lãi lỗ theo từng công ty."
+      },
+      "privacy": {
+        "title": "Chỉ mình bạn thấy",
+        "text": "Ngân sách của bạn hoàn toàn riêng tư. Không người dùng nào khác xem được."
+      }
+    }
+  },
+  "auth": {
+    "pending": "Vui lòng chờ...",
+    "login": {
+      "title": "Chào mừng bạn trở lại",
+      "subtitle": "Đăng nhập để xem ngân sách của bạn.",
+      "submit": "Đăng nhập",
+      "switchPrompt": "Bạn mới đến?",
+      "switchLink": "Tạo tài khoản"
+    },
+    "signup": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Chỉ mất một phút thôi.",
+      "submit": "Đăng ký",
+      "switchPrompt": "Đã có tài khoản?",
+      "switchLink": "Đăng nhập"
+    },
+    "fields": {
+      "displayName": "Tên của bạn",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "passwordHint": "Ít nhất 8 ký tự."
+    },
+    "errors": {
+      "missingFields": "Vui lòng điền đầy đủ thông tin.",
+      "passwordTooShort": "Mật khẩu cần ít nhất 8 ký tự.",
+      "invalidCredentials": "Email hoặc mật khẩu không đúng.",
+      "emailNotConfirmed": "Vui lòng xác nhận email trước. Hãy kiểm tra hộp thư của bạn.",
+      "userExists": "Email này đã có tài khoản. Hãy thử đăng nhập.",
+      "weakPassword": "Mật khẩu quá dễ đoán. Hãy chọn mật khẩu mạnh hơn.",
+      "tooManyRequests": "Bạn thử quá nhiều lần. Vui lòng đợi một chút rồi thử lại.",
+      "generic": "Có lỗi xảy ra. Vui lòng thử lại."
+    },
+    "notices": {
+      "checkEmail": "Sắp xong rồi! Chúng tôi đã gửi email cho bạn. Hãy bấm vào liên kết trong email để kích hoạt tài khoản."
+    }
+  },
+  "dashboard": {
+    "title": "Tổng quan",
+    "greeting": "Xin chào, {name}!",
+    "subtitle": "Tình hình tài chính của bạn trong nháy mắt.",
+    "comingSoon": "Sắp ra mắt",
+    "sections": {
+      "budget": "Ngân sách tháng",
+      "saving": "Mục tiêu tiết kiệm",
+      "invest": "Đầu tư"
+    }
+  }
+}

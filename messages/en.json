@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "description": "Plan your money, see where it goes, and grow your savings with a smile."
+  },
+  "language": {
+    "label": "Language",
+    "vi": "VI",
+    "en": "EN"
+  },
+  "nav": {
+    "login": "Log in",
+    "logout": "Log out"
+  },
+  "home": {
+    "badge": "Free and private",
+    "title": "Your money, happy and in order",
+    "subtitle": "Plan each month, log what you really spend, and see kindly where you can do better. Save toward your goals and follow your investments in one place.",
+    "ctaPrimary": "Get started free",
+    "ctaSecondary": "I already have an account",
+    "features": {
+      "budget": {
+        "title": "Plan vs. real spending",
+        "text": "Set a monthly plan, log income and expenses, and see which categories went over."
+      },
+      "saving": {
+        "title": "Savings goals",
+        "text": "Name a goal, set a target, and watch your progress grow."
+      },
+      "invest": {
+        "title": "Investments",
+        "text": "Record each buy and sell, and follow your profit by company."
+      },
+      "privacy": {
+        "title": "Only you can see it",
+        "text": "Your budget is private. No other user can ever see your data."
+      }
+    }
+  },
+  "auth": {
+    "pending": "Please wait...",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in to see your budget.",
+      "submit": "Log in",
+      "switchPrompt": "New here?",
+      "switchLink": "Create an account"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "It only takes a minute.",
+      "submit": "Sign up",
+      "switchPrompt": "Already have an account?",
+      "switchLink": "Log in"
+    },
+    "fields": {
+      "displayName": "Your name",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters."
+    },
+    "errors": {
+      "missingFields": "Please fill in every field.",
+      "passwordTooShort": "Your password needs at least 8 characters.",
+      "invalidCredentials": "Email or password is not correct.",
+      "emailNotConfirmed": "Please confirm your email first. Check your inbox.",
+      "userExists": "This email already has an account. Try logging in.",
+      "weakPassword": "That password is too easy to guess. Try a stronger one.",
+      "tooManyRequests": "Too many tries. Please wait a moment and try again.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "notices": {
+      "checkEmail": "Almost done! We sent you an email. Click the link inside to activate your account."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "greeting": "Hello, {name}!",
+    "subtitle": "Here is your money at a glance.",
+    "comingSoon": "Coming soon",
+    "sections": {
+      "budget": "Monthly budget",
+      "saving": "Savings goals",
+      "invest": "Investments"
+    }
+  }
+}
